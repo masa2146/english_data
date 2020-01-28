@@ -1,0 +1,16 @@
+mongoimport --db quickenglish --collection adjectives --file adjectives.json --jsonArray
+mongoimport --db quickenglish --collection adverbs --file adverbs.json --jsonArray
+mongoimport --db quickenglish --collection nouns --file nouns.json --jsonArray
+mongoimport --db quickenglish --collection prepositions --file prepositions.json --jsonArray
+mongoimport --db quickenglish --collection pronouns --file pronouns.json --jsonArray
+mongoimport --db quickenglish --collection verbs --file verbs.json --jsonArray
+
+mongoimport --db quickenglish --collection news --file newsData-1.json --jsonArray
+
+mongoimport --db quickenglish --collection podcast_level1 --file podcast_level1.json --jsonArray
+mongoimport --db quickenglish --collection podcast_level2 --file podcast_level2.json --jsonArray
+mongoimport --db quickenglish --collection podcast_level3 --file podcast_level3.json --jsonArray
+mongoimport --db quickenglish --collection podcast_bussiness --file podcast_bussiness.json --jsonArray
+mongoimport --db quickenglish --collection podcast_voa1 --file podcast_voa1.json --jsonArray
+mongoimport --db quickenglish --collection podcast_voa2 --file podcast_voa2.json --jsonArray
+
